@@ -1,0 +1,40 @@
+{
+  "name": "cursed",
+  "version": "0.0.0",
+  "description": "Quick roguelike",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattstyles/cursed.git"
+  },
+  "keywords": [
+    "cli",
+    "console",
+    "terminal",
+    "roguelike",
+    "ncurses",
+    "blessed",
+    "cursed",
+    "game",
+    "rogue"
+  ],
+  "author": "Matt Styles <matt@veryfizzyjelly.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattstyles/cursed/issues"
+  },
+  "homepage": "https://github.com/mattstyles/cursed#readme",
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "supervisor": "^0.11.0"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^1.1.3",
+    "kefir": "^3.2.3",
+    "osenv": "^0.1.3"
+  }
+}
